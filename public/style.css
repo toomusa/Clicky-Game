@@ -1,0 +1,35 @@
+h1 {
+  color: blue;
+}
+
+h3 {
+  color: brown;
+}
+
+h6 {
+  color: darkgreen;
+}
+
+#header {
+  background-color: aqua;
+}
+
+#footer {
+  background-color: aqua;
+}
+
+#instructions {
+  background-color: coral;
+}
+
+#scoreboard {
+  background-color: lightgrey;
+}
+
+#game {
+  background-color: blanchedalmond;
+}
+
+.charchard {
+  background-color: darkred;
+}
