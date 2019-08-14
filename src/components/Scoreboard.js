@@ -1,4 +1,5 @@
 import React from "react";
+import fury from "../images/fury.png"
 
 function Scoreboard(props) {
 
@@ -36,15 +37,16 @@ function Scoreboard(props) {
     <div id="scoreboard">
       <div className="row">
         <div className="col-md-3 col-sm-4 col-xs-12" id="scoretitlebox">
-          <h3>&nbsp;&nbsp;&nbsp;Scoreboard</h3>
+          <h3>Scoreboard</h3>
         </div>
         <div className="col-md-3 col-sm-3 col-xs-12" id="clickbox">
           <label id="click">Clicks: {props.state.clicks}</label>
-          <label>&nbsp;&nbsp;&nbsp;&nbsp;</label>
+          <br></br>
           <label id="score">Score: {props.state.score}</label>
         </div>
         <div className="col-md-6 col-sm-5 col-xs-12" id="messagebox">
-          <p id="message">{message}</p>
+          <img alt="fury" src={fury} id="fury"></img>
+          <span id="message">{message}</span>
         </div>
       </div>
     </div>
